@@ -442,24 +442,17 @@
         </p>
       </div>
 
-      <div class="heroImage skeleton">
+      <div class="heroImage">
         <img
           src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=60"
-          srcset="
-            https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=600&q=60 600w,
-            https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=60 900w,
-            https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=60 1200w
-          "
-          sizes="(max-width: 920px) 100vw, 42vw"
           alt="Cafe ambience"
           loading="eager"
           decoding="async"
           fetchpriority="high"
-          onload="this.parentElement.classList.remove('skeleton')"
         >
         <div class="heroBadge">
           ⭐ Best Sellers
-          <span class="badgeSmall">Paneer Tikka Pizza • Cold Coffee • Peri Peri Fries</span>
+          <span class="badgeSmall">Paneer Tikka Pizza • Pasta • Dessert</span>
         </div>
       </div>
     </section>
@@ -474,12 +467,6 @@
         <div class="g big skeleton">
           <img
             src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=60"
-            srcset="
-              https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=60 600w,
-              https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=60 900w,
-              https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=60 1200w
-            "
-            sizes="(max-width: 920px) 100vw, 52vw"
             alt="Cafe interior"
             loading="lazy"
             decoding="async"
@@ -569,14 +556,8 @@
 
         <div class="card">
           <div class="menuTop">
-            <div class="menuIcon skeleton">
-              <img
-                src="https://images.unsplash.com/photo-1523986371872-9d3ba2e2f642?auto=format&fit=crop&w=160&q=60"
-                alt="Pasta"
-                loading="lazy"
-                decoding="async"
-                onload="this.parentElement.classList.remove('skeleton')"
-              >
+            <div class="menuIcon">
+              <img src="pasta.png" alt="Pasta">
             </div>
             <div>
               <h3 style="margin:0;">🍝 Pasta</h3>
@@ -673,15 +654,15 @@
           <p class="sub">
             <b>Address 1:</b> 171, Jhora Magra Complex, Goyali Choraha, Sirohi, Rajasthan - 307001<br><br>
             <b>Address 2:</b> 151, Gandhi Vadi, UmarGam, Daman Road, Gujarat - 396171<br><br>
-            <b>Phone:</b> +917665155938<br>
-            <b>Email:</b> mayaracafe7773@gmail.com<br>
+            <b>Phone:</b> +91 917665155938<br>
+            <b>Email:</b> mayaracafe@gmail.com<br>
             <b>Timings:</b> 10:00 AM – 10:00 PM
           </p>
 
           <div class="heroActions" style="margin-top:14px;">
             <a class="btn btnPrimary" href="https://wa.me/917665155938?text=Hi%20Mayara%20Cafe!%20I%20want%20to%20order%20%F0%9F%8D%BD%EF%B8%8F" target="_blank" rel="noopener">📲 WhatsApp</a>
             <a class="btn" href="tel:+917665155938">📞 Call</a>
-            <a class="btn" href="mailto:mayaracafe7773@gmail.com">✉️ Email</a>
+            <a class="btn" href="mailto:mayaracafe@gmail.com">✉️ Email</a>
           </div>
 
           <div style="margin-top:12px; border-radius:14px; overflow:hidden; border:1px solid var(--line);">
@@ -694,7 +675,7 @@
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
-          <p class="note">You can change the map iframe later if you want to show the Gujarat address instead.</p>
+          <p class="note">You can change the map later if you want to show the Gujarat address instead.</p>
         </div>
 
         <div class="card">
@@ -743,7 +724,7 @@
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    const CAFE_EMAIL = "mayaracafe7773@gmail.com";
+    const CAFE_EMAIL = "mayaracafe@gmail.com";
     const WHATSAPP_NUMBER = "917665155938";
 
     function sendEmail() {
@@ -768,6 +749,6 @@
     }
   </script>
 </body>
-
 </html>
+
 
